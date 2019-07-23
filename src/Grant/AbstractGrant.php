@@ -258,7 +258,7 @@ abstract class AbstractGrant implements GrantTypeInterface
      * @throws OAuthServerException
      */
     protected function validateRedirectUri(
-        string $redirectUri,
+        $redirectUri,
         ClientEntityInterface $client,
         ServerRequestInterface $request
     ) {
